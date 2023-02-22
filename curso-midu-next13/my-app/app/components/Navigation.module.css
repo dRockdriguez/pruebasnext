@@ -1,0 +1,17 @@
+.nav {
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 10px
+}
+
+.nav a:hover {
+   text-decoration: underline;
+}

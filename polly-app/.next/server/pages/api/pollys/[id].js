@@ -1,0 +1,46 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/pollys/[id]";
+exports.ids = ["pages/api/pollys/[id]"];
+exports.modules = {
+
+/***/ "(api)/./pages/api/pollys/[id].ts":
+/*!**********************************!*\
+  !*** ./pages/api/pollys/[id].ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _pollys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pollys */ \"(api)/./pages/api/pollys/pollys.js\");\n// Next.js API route support: https://nextjs.org/docs/api-routes/introduction\n\nfunction handler(req, res) {\n    const { id  } = req.query;\n    const pollys = _pollys__WEBPACK_IMPORTED_MODULE_0__.POLLYS;\n    const polly = pollys.find(({ id: pollyId  })=>pollyId === id) || {};\n    res.status(200).json(polly);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvcG9sbHlzL1tpZF0udHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSw2RUFBNkU7QUFFM0M7QUFxQm5CLFNBQVNDLFFBQ3BCQyxHQUFtQixFQUNuQkMsR0FBZ0MsRUFDbEM7SUFDRSxNQUFNLEVBQUVDLEdBQUUsRUFBRSxHQUFHRixJQUFJRyxLQUFLO0lBRXhCLE1BQU1DLFNBQVNOLDJDQUFNQTtJQUVyQixNQUFNTyxRQUFRRCxPQUFPRSxJQUFJLENBQUMsQ0FBQyxFQUFFSixJQUFJSyxRQUFPLEVBQUUsR0FBS0EsWUFBWUwsT0FBTyxDQUFDO0lBRW5FRCxJQUFJTyxNQUFNLENBQUMsS0FBS0MsSUFBSSxDQUFDSjtBQUN6QixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcG9sbHktYXBwLy4vcGFnZXMvYXBpL3BvbGx5cy9baWRdLnRzPzRlZmUiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gTmV4dC5qcyBBUEkgcm91dGUgc3VwcG9ydDogaHR0cHM6Ly9uZXh0anMub3JnL2RvY3MvYXBpLXJvdXRlcy9pbnRyb2R1Y3Rpb25cbmltcG9ydCB0eXBlIHsgTmV4dEFwaVJlcXVlc3QsIE5leHRBcGlSZXNwb25zZSB9IGZyb20gJ25leHQnXG5pbXBvcnQgeyBQT0xMWVMgfSBmcm9tICcuL3BvbGx5cyc7XG5cbnR5cGUgUmVzcG9uc2UgPSB7XG4gICAgaWQ6IHN0cmluZyxcbiAgICB0ZXh0OiBzdHJpbmdcbn1cblxudHlwZSBRdWVzdGlvbiA9IHtcbiAgICB0aXRsZTogc3RyaW5nLFxuICAgIGlkOiBzdHJpbmcsXG4gICAgcmVzcG9uc2VzOiBBcnJheTxSZXNwb25zZT5cbn1cblxudHlwZSBQb2xseSA9IHtcbiAgICB0aXRsZTogc3RyaW5nLFxuICAgIGlkOiBzdHJpbmcsXG4gICAgcXVlc3Rpb25zOiBBcnJheTxRdWVzdGlvbj5cbn1cblxuXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGhhbmRsZXIoXG4gICAgcmVxOiBOZXh0QXBpUmVxdWVzdCxcbiAgICByZXM6IE5leHRBcGlSZXNwb25zZTxQb2xseSB8IHt9PlxuKSB7XG4gICAgY29uc3QgeyBpZCB9ID0gcmVxLnF1ZXJ5XG5cbiAgICBjb25zdCBwb2xseXMgPSBQT0xMWVM7XG5cbiAgICBjb25zdCBwb2xseSA9IHBvbGx5cy5maW5kKCh7IGlkOiBwb2xseUlkIH0pID0+IHBvbGx5SWQgPT09IGlkKSB8fCB7fTtcblxuICAgIHJlcy5zdGF0dXMoMjAwKS5qc29uKHBvbGx5KVxufVxuIl0sIm5hbWVzIjpbIlBPTExZUyIsImhhbmRsZXIiLCJyZXEiLCJyZXMiLCJpZCIsInF1ZXJ5IiwicG9sbHlzIiwicG9sbHkiLCJmaW5kIiwicG9sbHlJZCIsInN0YXR1cyIsImpzb24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/pollys/[id].ts\n");
+
+/***/ }),
+
+/***/ "(api)/./pages/api/pollys/pollys.js":
+/*!************************************!*\
+  !*** ./pages/api/pollys/pollys.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"POLLYS\": () => (/* binding */ POLLYS)\n/* harmony export */ });\nconst POLLYS = [\n    {\n        title: \"Polly1\",\n        id: \"1\",\n        questions: [\n            {\n                title: \"question1\",\n                id: \"1\",\n                responses: [\n                    {\n                        id: \"1\",\n                        text: \"response1\"\n                    },\n                    {\n                        id: \"2\",\n                        text: \"response2\"\n                    },\n                    {\n                        id: \"3\",\n                        text: \"response3\"\n                    }\n                ]\n            },\n            {\n                title: \"question2\",\n                id: \"2\",\n                responses: [\n                    {\n                        id: \"1\",\n                        text: \"response1\"\n                    },\n                    {\n                        id: \"2\",\n                        text: \"response2\"\n                    }\n                ]\n            }\n        ]\n    },\n    {\n        title: \"Polly2\",\n        id: \"2\",\n        questions: [\n            {\n                title: \"question1\",\n                id: \"1\",\n                responses: [\n                    {\n                        id: \"1\",\n                        text: \"response1\"\n                    }\n                ]\n            }\n        ]\n    },\n    {\n        title: \"Polly3\",\n        id: \"3\",\n        questions: [\n            {\n                title: \"question1\",\n                id: \"1\",\n                responses: [\n                    {\n                        id: \"1\",\n                        text: \"response1\"\n                    }\n                ]\n            }\n        ]\n    }\n];\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvcG9sbHlzL3BvbGx5cy5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQU8sTUFBTUEsU0FBUztJQUNwQjtRQUNFQyxPQUFPO1FBQ1BDLElBQUk7UUFDSkMsV0FBVztZQUNUO2dCQUNFRixPQUFPO2dCQUNQQyxJQUFJO2dCQUNKRSxXQUFXO29CQUNUO3dCQUNFRixJQUFJO3dCQUNKRyxNQUFNO29CQUNSO29CQUNBO3dCQUNFSCxJQUFJO3dCQUNKRyxNQUFNO29CQUNSO29CQUNBO3dCQUNFSCxJQUFJO3dCQUNKRyxNQUFNO29CQUNSO2lCQUNEO1lBQ0g7WUFDQTtnQkFDRUosT0FBTztnQkFDUEMsSUFBSTtnQkFDSkUsV0FBVztvQkFDVDt3QkFDRUYsSUFBSTt3QkFDSkcsTUFBTTtvQkFDUjtvQkFDQTt3QkFDRUgsSUFBSTt3QkFDSkcsTUFBTTtvQkFDUjtpQkFDRDtZQUNIO1NBQ0Q7SUFDSDtJQUNBO1FBQ0VKLE9BQU87UUFDUEMsSUFBSTtRQUNKQyxXQUFXO1lBQ1Q7Z0JBQ0VGLE9BQU87Z0JBQ1BDLElBQUk7Z0JBQ0pFLFdBQVc7b0JBQ1Q7d0JBQ0VGLElBQUk7d0JBQ0pHLE1BQU07b0JBQ1I7aUJBQ0Q7WUFDSDtTQUNEO0lBQ0g7SUFDQTtRQUNFSixPQUFPO1FBQ1BDLElBQUk7UUFDSkMsV0FBVztZQUNUO2dCQUNFRixPQUFPO2dCQUNQQyxJQUFJO2dCQUNKRSxXQUFXO29CQUNUO3dCQUNFRixJQUFJO3dCQUNKRyxNQUFNO29CQUNSO2lCQUNEO1lBQ0g7U0FDRDtJQUNIO0NBQ0QsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3BvbGx5LWFwcC8uL3BhZ2VzL2FwaS9wb2xseXMvcG9sbHlzLmpzP2E1ZWUiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IFBPTExZUyA9IFtcbiAge1xuICAgIHRpdGxlOiBcIlBvbGx5MVwiLFxuICAgIGlkOiBcIjFcIixcbiAgICBxdWVzdGlvbnM6IFtcbiAgICAgIHtcbiAgICAgICAgdGl0bGU6IFwicXVlc3Rpb24xXCIsXG4gICAgICAgIGlkOiBcIjFcIixcbiAgICAgICAgcmVzcG9uc2VzOiBbXG4gICAgICAgICAge1xuICAgICAgICAgICAgaWQ6IFwiMVwiLFxuICAgICAgICAgICAgdGV4dDogXCJyZXNwb25zZTFcIixcbiAgICAgICAgICB9LFxuICAgICAgICAgIHtcbiAgICAgICAgICAgIGlkOiBcIjJcIixcbiAgICAgICAgICAgIHRleHQ6IFwicmVzcG9uc2UyXCIsXG4gICAgICAgICAgfSxcbiAgICAgICAgICB7XG4gICAgICAgICAgICBpZDogXCIzXCIsXG4gICAgICAgICAgICB0ZXh0OiBcInJlc3BvbnNlM1wiLFxuICAgICAgICAgIH0sXG4gICAgICAgIF0sXG4gICAgICB9LFxuICAgICAge1xuICAgICAgICB0aXRsZTogXCJxdWVzdGlvbjJcIixcbiAgICAgICAgaWQ6IFwiMlwiLFxuICAgICAgICByZXNwb25zZXM6IFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBpZDogXCIxXCIsXG4gICAgICAgICAgICB0ZXh0OiBcInJlc3BvbnNlMVwiLFxuICAgICAgICAgIH0sXG4gICAgICAgICAge1xuICAgICAgICAgICAgaWQ6IFwiMlwiLFxuICAgICAgICAgICAgdGV4dDogXCJyZXNwb25zZTJcIixcbiAgICAgICAgICB9LFxuICAgICAgICBdLFxuICAgICAgfSxcbiAgICBdLFxuICB9LFxuICB7XG4gICAgdGl0bGU6IFwiUG9sbHkyXCIsXG4gICAgaWQ6IFwiMlwiLFxuICAgIHF1ZXN0aW9uczogW1xuICAgICAge1xuICAgICAgICB0aXRsZTogXCJxdWVzdGlvbjFcIixcbiAgICAgICAgaWQ6IFwiMVwiLFxuICAgICAgICByZXNwb25zZXM6IFtcbiAgICAgICAgICB7XG4gICAgICAgICAgICBpZDogXCIxXCIsXG4gICAgICAgICAgICB0ZXh0OiBcInJlc3BvbnNlMVwiLFxuICAgICAgICAgIH0sXG4gICAgICAgIF0sXG4gICAgICB9LFxuICAgIF0sXG4gIH0sXG4gIHtcbiAgICB0aXRsZTogXCJQb2xseTNcIixcbiAgICBpZDogXCIzXCIsXG4gICAgcXVlc3Rpb25zOiBbXG4gICAgICB7XG4gICAgICAgIHRpdGxlOiBcInF1ZXN0aW9uMVwiLFxuICAgICAgICBpZDogXCIxXCIsXG4gICAgICAgIHJlc3BvbnNlczogW1xuICAgICAgICAgIHtcbiAgICAgICAgICAgIGlkOiBcIjFcIixcbiAgICAgICAgICAgIHRleHQ6IFwicmVzcG9uc2UxXCIsXG4gICAgICAgICAgfSxcbiAgICAgICAgXSxcbiAgICAgIH0sXG4gICAgXSxcbiAgfSxcbl07XG4iXSwibmFtZXMiOlsiUE9MTFlTIiwidGl0bGUiLCJpZCIsInF1ZXN0aW9ucyIsInJlc3BvbnNlcyIsInRleHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/pollys/pollys.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("(api)/./pages/api/pollys/[id].ts"));
+module.exports = __webpack_exports__;
+
+})();
